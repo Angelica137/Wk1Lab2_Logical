@@ -18,6 +18,9 @@ public class boolOp {
 	 * expression should be calculated and assigned to 'bresult'
 	 */
 	void a_boolOperation() {
+		bresult = (n > m) && (m < -2);
+		bresult = (m > 5) || !(finished);
+		bresult = !(n < 5) && !(finished);
 
 	}
 
