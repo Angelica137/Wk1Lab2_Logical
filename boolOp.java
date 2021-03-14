@@ -19,8 +19,11 @@ public class boolOp {
 	 */
 	void a_boolOperation() {
 		bresult = (n > m) && (m < -2);
+		System.out.println(bresult);
 		bresult = (m > 5) || !(finished);
+		System.out.println(bresult);
 		bresult = !(n < 5) && !(finished);
+		System.out.println(bresult);
 
 	}
 
